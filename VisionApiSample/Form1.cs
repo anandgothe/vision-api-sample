@@ -26,7 +26,7 @@ namespace VisionApiSample
                 var file = System.IO.File.OpenRead(openFileDialog1.FileName);
 
                 // Refer to this blog for all the preceding steps and more info:
-                // https://devonblog.com/software-development/artificial-intelligence/censor-pictures-…puter-vision-api/
+                // https://devonblog.com/software-development/artificial-intelligence/censor-pictures-using-ai-from-computer-vision-api/
 
                 // TODO: you have to use your own KEY here.
                 var client = new VisionServiceClient("ye2f5cb4ee15341ba8f7c4f0d90ff542c",
